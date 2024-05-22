@@ -2,7 +2,7 @@
 
 # Open Source Communication Channel
 
-> The first stop for people wishing to contribute to the World Health Organization open source work.
+> The first stop for people wishing to contribute to the World Health Organization open source work..
 
 - 💬 open source guides contextualized to WHO
 - 👥 join a [community](https://github.com/WorldHealthOrganization/open-source-communication-channel/discussions) of open source practitioners
