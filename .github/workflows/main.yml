@@ -3,7 +3,7 @@ name: Deploy Docsify to GitHub Pages
 on:
   push:
     branches:
-      - main  # Set this to the branch you want to deploy from
+      - main  # Updated from 'master' to 'main'
 
 jobs:
   build-and-deploy:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout Source
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2  # This action does not depend on Node.js version
       
       - name: Setup Node.js
         uses: actions/setup-node@v2
@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Build Docsify site
-        run: docsify build .  # Docsify typically serves files directly, might not need a build step
+        run: docsify build .  # This is typically not needed for Docsify as it usually doesn't require a build step, but included for completeness
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
