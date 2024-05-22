@@ -3,7 +3,7 @@ name: Deploy Docsify to GitHub Pages
 on:
   push:
     branches:
-      - master  # Set this to the branch you want to deploy from
+      - main  # Set this to the branch you want to deploy from
 
 jobs:
   build-and-deploy:
