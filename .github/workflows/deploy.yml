@@ -1,0 +1,31 @@
+name: Deploy Docsify to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master  # Set this to the branch you want to deploy from
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Source
+        uses: actions/checkout@v2
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'  # Set this to the Node.js version you are using
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Docsify site
+        run: docsify build .  # This command depends on whether you have a build script; Docsify typically serves files directly without a build step
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./  # The directory of your Docsify site
