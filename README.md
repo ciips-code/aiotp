@@ -1,8 +1,10 @@
+###[English]
 # All In One Telehealth Platform -AIOTP-
 
 ## Overview
 
-The **All In One Telehealth Platform (AIOTP)** is an open-source software solution developed by the **Center for Implementation and Innovation in Health Policies (CIIPS)** at the **Institute for Clinical Effectiveness and Health Policy (IECS)**, in collaboration with **Integrando Salud**, and funded by the **Pan American Health Organization (PAHO/WHO)** using United States Government funds. This platform aims to improve access to healthcare for people and communities in Latin America and the Caribbean.
+The **All In One Telehealth Platform (AIOTP)** is an open-source software solution developed by the **Pan American Health Organization (PAHO/WHO)** using United States Government funds, with the technical collaboration of the **Center for Implementation and Innovation in Health Policies (CIIPS)** at the **Institute for Clinical Effectiveness and Health Policy (IECS)**, and **Integrando Salud**. This platform aims to improve access to healthcare for people and communities in Latin America and the Caribbean.
+This solution is part of the [**IS4H**](https://www.paho.org/en/is4h-information-systems-health) (Information Systems for Health) initiative, and relates to the [**8 Guiding Principles of Digital Transformation of the Health Sector**](https://iris.paho.org/handle/10665.2/54256).
 
 ## Purpose
 
@@ -16,9 +18,18 @@ The platform was created to address the healthcare access challenges faced by re
 - **Interoperability:** Capable of integrating with existing systems using standard interfaces.
 - **Security:** Emphasizes secure deployment to protect patient data and ensure privacy.
 
+## Digital Public Goods and Digital Health Global Goods
+[**Digital public goods**](https://digitalpublicgoods.net) (DPGs) are open source software, open data, open artificial intelligence (AI) models, open standards, and open content that adhere to privacy and other applicable regulations and best practices, do no harm by design, and help attain the Sustainable Development Goals (SDGs). The DPG Alliance developed a set of [standards](https://digitalpublicgoods.net/standard/) that that any software solution must comply with to be considered a DPG.
+[**Digital Health Global Goods**](https://digitalsquare.org/digital-health-global-goods) (DHGG) have a close relationship to DPGs, in that they overlap with many aspects of the DPG Standard. However, the difference stems from the fact that Digital Square Global Goods are focused on the Sustainable Development Goal 3 (Health and Wellness) and primarily focused on the health domain with a market focus of Low-Middle Income Countries (LMIC) settings. Global Goods are also tools with an identified drive towards strengthening the maturity, interoperability, and shelf readiness. To be considered a global good, applicants must meet certain minimum requirements, such as having an open license, and complete a checklist to confirm their eligibility. Once the minimum requirements are met, applicants must fill out an application form and complete a self-assessment using the Digital Square Maturity Model (for software or content). The Peer Review Committee will then review all the applications and make recommendations. The Global Goods Review Board will meet quarterly to consider the PRC’s recommendations and decide whether to accept, reject, or request additional review. All applicants will be notified of the decision. Successful applicants will be added to the Global Goods Interactive Guidebook and will be publicized through our communication channels.
+AIOTP is currently undergoing a review, update and submission processes to be considered for both the DPG and the DHGG software lists. 
+
 ## Development and Collaboration
 
-The All In One Telehealth Platform is a collaborative effort involving multiple stakeholders. The CIIPS at IECS and Integrando Salud have led the development, with financial and strategic support from PAHO/WHO. The platform's development is ongoing, with new modules and features being added regularly to enhance its functionality and reach. A PATH project for creating a telehealth suite supports its expansion with new features like: an interoperability module follwing the [OpenHIE](https://ohie.org/es/) framework, using [HL7 FHIR](https://hl7.org/fhir/) and any necessary semantic standards, to connect e-prescribing, e-pharmacy, laboratory, e-referral and community health services, among others; a clinical decision support module based on [CDS Hooks](https://cds-hooks.org), aligned with current and future L3 [WHO Smart Guidelines](https://www.who.int/teams/digital-health-and-innovation/smart-guidelines).
+The All In One Telehealth Platform is a collaborative effort involving multiple stakeholders. The CIIPS at IECS and Integrando Salud have carried out the development, with leadership, financial and strategic support from PAHO/WHO. The platform's development is ongoing, with new modules and features being added regularly to enhance its functionality and reach. A [PATH](https://www.path.org) project for creating a telehealth suite supports its expansion with new features like: an interoperability module following the [OpenHIE](https://ohie.org/es/) framework, using [HL7 FHIR](https://hl7.org/fhir/) and any necessary semantic standards, to connect e-prescribing, e-pharmacy, laboratory, e-referral and community health services, among others; a clinical decision support module based on [CDS Hooks](https://cds-hooks.org), aligned with current and future L3 [WHO Smart Guidelines](https://www.who.int/teams/digital-health-and-innovation/smart-guidelines); a Patient Portal module to help navigate patients in their journey through the healthcare system. Detailed documentation, standard operating procedures,  and video guides, will be updated in English and Spanish.
+Current repositories are free and open-source, accessible at:
+-**AIOTP OpenEMR package**: https://github.com/ciips-code/openemr-telesalud
+-**AIOTP videoconference package** (Jitsi, Laravel, APIs, and containers): https://github.com/ciips-code/ciips-telesalud
+
 
 ## Getting Started
 
@@ -42,4 +53,62 @@ For more information or to get in touch with the development team, please visit 
 ---
 
 Thank you for your interest in the All In One Telehealth Platform. Together, we can improve healthcare access and outcomes for communities across Latin America and the Caribbean, and beyond.
+
+
+—
+###Español
+# All In One Telehealth Platform -AIOTP-
+
+## Visión General
+
+La **All In One Telehealth Platform (AIOTP)** es una solución de software de código abierto desarrollada por la **Organización Panamericana de la Salud (OPS/OMS)** utilizando fondos del Gobierno de los Estados Unidos, con la colaboración técnica del **Centro de Implementación e Innovación en Políticas de Salud (CIIPS)** en el **Instituto de Efectividad Clínica y Sanitaria (IECS)**, e **Integrando Salud**. Esta plataforma tiene como objetivo mejorar el acceso a la atención médica para personas y comunidades en América Latina y el Caribe. Esta solución es parte de la iniciativa [**IS4H**](https://www.paho.org/en/is4h-information-systems-health) (Sistemas de Información para la Salud) y está relacionada con los [**8 Principios Rectores para la Transformación Digital del Sector Salud**](https://iris.paho.org/handle/10665.2/54256).
+
+## Propósito
+
+La plataforma fue creada para abordar los desafíos de acceso a la atención médica que enfrentan las poblaciones remotas y desatendidas. Al aprovechar y adaptar componentes de código abierto como [OpenEMR](https://www.open-emr.org) y [Jitsi](https://jitsi.org), la plataforma proporciona una solución de telemedicina segura, escalable y confiable. Inicialmente, la plataforma incluye un módulo de Historia Clínica Electrónica (HCE) y un módulo de Telemedicina, que pueden implementarse conjuntamente o de manera independiente. El desarrollo en curso tiene como objetivo expandir la funcionalidad de la plataforma e interoperabilidad con otros sistemas a través de interfaces estándar.
+
+## Características Clave
+
+- **Código Abierto:** Construido sobre componentes de código abierto, asegurando transparencia y flexibilidad.
+- **Diseño Modular:** Incluye un módulo de EMR y un módulo de Telemedicina, con módulos adicionales en desarrollo.
+- **Escalabilidad:** Diseñado para implementarse y escalarse fácilmente para satisfacer diversas necesidades de atención médica.
+- **Interoperabilidad:** Capaz de integrarse con sistemas existentes utilizando interfaces estándar.
+- **Seguridad:** Enfatiza un despliegue seguro para proteger los datos de los pacientes y garantizar la privacidad.
+
+## Bienes Públicos Digitales y Bienes Globales de Salud Digital
+
+Los [**bienes públicos digitales**](https://digitalpublicgoods.net) (DPG) son software de código abierto, datos abiertos, modelos de inteligencia artificial (IA) abiertos, estándares abiertos y contenido abierto que cumplen con las regulaciones y mejores prácticas aplicables de privacidad, no causan daño por diseño y ayudan a alcanzar los Objetivos de Desarrollo Sostenible (ODS). La Alianza de DPG desarrolló un conjunto de [estándares](https://digitalpublicgoods.net/standard/) que cualquier solución de software debe cumplir para ser considerada un DPG.
+
+Los [**Bienes Globales de Salud Digital**](https://digitalsquare.org/digital-health-global-goods) (DHGG) tienen una relación estrecha con los DPG, ya que se superponen con muchos aspectos del Estándar DPG. Sin embargo, la diferencia radica en que los Bienes Globales de Digital Square se enfocan en el Objetivo de Desarrollo Sostenible 3 (Salud y Bienestar) y se centran principalmente en el dominio de la salud con un enfoque de mercado en entornos de Países de Ingresos Bajos y Medios (PIBM). Los Bienes Globales también son herramientas con un impulso identificado hacia el fortalecimiento de la madurez, interoperabilidad y preparación en el mercado. Para ser considerados un bien global, los solicitantes deben cumplir con ciertos requisitos mínimos, como tener una licencia abierta, y completar una lista de verificación para confirmar su elegibilidad. Una vez que se cumplen los requisitos mínimos, los solicitantes deben llenar un formulario de solicitud y completar una autoevaluación utilizando el Modelo de Madurez de Digital Square (para software o contenido). El Comité de Revisión por Pares revisará todas las solicitudes y hará recomendaciones. El Consejo de Revisión de Bienes Globales se reunirá trimestralmente para considerar las recomendaciones del CRP y decidir si aceptarlas, rechazarlas o solicitar una revisión adicional. Todos los solicitantes serán notificados de la decisión. Los solicitantes exitosos serán añadidos a la Guía Interactiva de Bienes Globales y se publicitarán a través de nuestros canales de comunicación.
+AIOTP está actualmente en proceso de revisión, actualización y presentación para ser considerado tanto en las listas de software de DPG como de DHGG.
+
+## Desarrollo y Colaboración
+
+La All In One Telehealth Platform es un esfuerzo colaborativo que involucra a múltiples partes interesadas. El CIIPS en IECS e Integrando Salud han llevado a cabo el desarrollo, con liderazgo, apoyo financiero y estratégico de la OPS/OMS. El desarrollo de la plataforma está en curso, con nuevos módulos y características que se añaden regularmente para mejorar su funcionalidad y alcance. Un proyecto de [PATH](https://www.path.org) para crear una suite de telemedicina apoya su expansión con nuevas características como: un módulo de interoperabilidad siguiendo el marco [OpenHIE](https://ohie.org/es/), utilizando [HL7 FHIR](https://hl7.org/fhir/) y cualquier estándar semántico necesario, para conectar la prescripción electrónica, e-farmacia, laboratorio, e-referencia y servicios de salud comunitarios, entre otros; un módulo de soporte de decisiones clínicas basado en [CDS Hooks](https://cds-hooks.org), alineado con las Directrices Inteligentes de la OMS [L3](https://www.who.int/teams/digital-health-and-innovation/smart-guidelines) actuales y futuras; un módulo de Portal del Paciente para ayudar a los pacientes a navegar en su trayectoria a través del sistema de salud. La documentación detallada, los procedimientos operativos estándar y las guías en video, se actualizarán en inglés y español. Los repositorios actuales son gratuitos y de código abierto, accesibles en:
+-**Paquete AIOTP OpenEMR**: https://github.com/ciips-code/openemr-telesalud
+-**Paquete de videoconferencia AIOTP** (Jitsi, Laravel, API y contenedores): https://github.com/ciips-code/ciips-telesalud
+
+## Primeros Pasos
+
+Para comenzar con la All In One Telehealth Platform, por favor visite los siguientes recursos:
+
+- [Artículo de Noticias de la OPS](https://www.paho.org/en/news/12-1-2023-paho-platform-brings-health-monitoring-chronic-diseases-remote-populations)
+- [Discusión en la Comunidad OpenEMR](https://community.open-emr.org/t/all-in-one-telehealth-platform-aiotp-openemr-jitsi/22617)
+
+## Contribuir
+
+Damos la bienvenida a contribuciones de la comunidad para ayudar a mejorar y expandir la All In One Telehealth Platform. Por favor, consulte nuestras [Directrices de Contribución](CONTRIBUTING.md) para obtener más información sobre cómo participar.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia CC - vea el archivo [LICENSE](LICENSE) para más detalles.
+
+## Contacto
+
+Para obtener más información o ponerse en contacto con el equipo de desarrollo, por favor visite nuestra [Página de Contacto](CONTACT.md).
+
+---
+
+Gracias por su interés en la All In One Telehealth Platform. Juntos, podemos mejorar el acceso a la atención médica y los resultados para las comunidades de América Latina y el Caribe, y más allá.
+
 
