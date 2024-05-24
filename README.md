@@ -18,7 +18,7 @@ The platform was created to address the healthcare access challenges faced by re
 
 ## Development and Collaboration
 
-The All In One Telehealth Platform is a collaborative effort involving multiple stakeholders. The CIIPS at IECS and Integrando Salud have led the development, with financial and strategic support from PAHO/WHO. The platform's development is ongoing, with new modules and features being added regularly to enhance its functionality and reach.
+The All In One Telehealth Platform is a collaborative effort involving multiple stakeholders. The CIIPS at IECS and Integrando Salud have led the development, with financial and strategic support from PAHO/WHO. The platform's development is ongoing, with new modules and features being added regularly to enhance its functionality and reach. A PATH project for creating a telehealth suite supoorted its expansion with new features like: an interoperability module follwing the [OpenHIE](https://ohie.org/es/) framework, using [HL7 FHIR](https://hl7.org/fhir/) and any necessary semantic standards, to connect e-prescribing, e-pharmacy, laboratory, e-referral and community health services, among others; a clinical decision supoort module based on [CDS Hooks](https://cds-hooks.org), aligned with the [WHO Smart Guidelines](https://www.who.int/teams/digital-health-and-innovation/smart-guidelines).
 
 ## Getting Started
 
