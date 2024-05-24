@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **All In One Telehealth Platform** (AIOTP) is an open-source software solution developed by the **Center for Implementation and Innovation in Health Policies (CIIPS)** at the **Institute for Clinical Effectiveness and Health Policy (IECS)**, in collaboration with **Integrando Salud**, and funded by the **Pan American Health Organization (PAHO/WHO)** using United States Government funds. This platform aims to improve access to healthcare for people and communities in Latin America and the Caribbean.
+The **All In One Telehealth Platform (AIOTP)** is an open-source software solution developed by the **Center for Implementation and Innovation in Health Policies (CIIPS)** at the **Institute for Clinical Effectiveness and Health Policy (IECS)**, in collaboration with **Integrando Salud**, and funded by the **Pan American Health Organization (PAHO/WHO)** using United States Government funds. This platform aims to improve access to healthcare for people and communities in Latin America and the Caribbean.
 
 ## Purpose
 
