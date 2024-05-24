@@ -6,7 +6,7 @@ The **All In One Telehealth Platform** (AIOTP) is an open-source software soluti
 
 ## Purpose
 
-The platform was created to address the healthcare access challenges faced by remote and underserved populations. By leveraging and adapting open-source components such as [OpenEMR](https://www.open-emr.org)and [Jitsi](https://jitsi.org), the platform provides a secure, scalable, and reliable telehealth solution. Initially, the platform includes an Electronic Medical Record (EMR) module and a Telehealth module, which can be deployed jointly or independently. The ongoing development aims to expand the platform's functionality and interoperability with other systems through standard interfaces.
+The platform was created to address the healthcare access challenges faced by remote and underserved populations. By leveraging and adapting open-source components such as [OpenEMR](https://www.open-emr.org) and [Jitsi](https://jitsi.org), the platform provides a secure, scalable, and reliable telehealth solution. Initially, the platform includes an Electronic Medical Record (EMR) module and a Telehealth module, which can be deployed jointly or independently. The ongoing development aims to expand the platform's functionality and interoperability with other systems through standard interfaces.
 
 ## Key Features
 
