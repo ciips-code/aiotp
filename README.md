@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **All In One Telehealth Platform** (AIOTP) is an open-source software solution developed by the **Center for Implementation and Innovation in Health Policies (CIIPS)** at the **INSTITUTE FOR CLINICAL EFFECTIVENESS AND HEALTH POLICY (IECS)**, in collaboration with **Integrando Salud**, and funded by the **Pan American Health Organization (PAHO/WHO)** using United States Government funds. This platform aims to improve access to healthcare for people and communities in Latin America and the Caribbean.
+The **All In One Telehealth Platform** (AIOTP) is an open-source software solution developed by the **Center for Implementation and Innovation in Health Policies (CIIPS)** at the **Institute for Clinical Effectiveness and Health Policy (IECS)**, in collaboration with **Integrando Salud**, and funded by the **Pan American Health Organization (PAHO/WHO)** using United States Government funds. This platform aims to improve access to healthcare for people and communities in Latin America and the Caribbean.
 
 ## Purpose
 
@@ -18,7 +18,7 @@ The platform was created to address the healthcare access challenges faced by re
 
 ## Development and Collaboration
 
-The All In One Telehealth Platform is a collaborative effort involving multiple stakeholders. The CIIPS at IECS and Integrando Salud have led the development, with financial and strategic support from PAHO/WHO. The platform's development is ongoing, with new modules and features being added regularly to enhance its functionality and reach. A PATH project for creating a telehealth suite supoorted its expansion with new features like: an interoperability module follwing the [OpenHIE](https://ohie.org/es/) framework, using [HL7 FHIR](https://hl7.org/fhir/) and any necessary semantic standards, to connect e-prescribing, e-pharmacy, laboratory, e-referral and community health services, among others; a clinical decision supoort module based on [CDS Hooks](https://cds-hooks.org), aligned with the [WHO Smart Guidelines](https://www.who.int/teams/digital-health-and-innovation/smart-guidelines).
+The All In One Telehealth Platform is a collaborative effort involving multiple stakeholders. The CIIPS at IECS and Integrando Salud have led the development, with financial and strategic support from PAHO/WHO. The platform's development is ongoing, with new modules and features being added regularly to enhance its functionality and reach. A PATH project for creating a telehealth suite supports its expansion with new features like: an interoperability module follwing the [OpenHIE](https://ohie.org/es/) framework, using [HL7 FHIR](https://hl7.org/fhir/) and any necessary semantic standards, to connect e-prescribing, e-pharmacy, laboratory, e-referral and community health services, among others; a clinical decision support module based on [CDS Hooks](https://cds-hooks.org), aligned with current and future L3 [WHO Smart Guidelines](https://www.who.int/teams/digital-health-and-innovation/smart-guidelines).
 
 ## Getting Started
 
