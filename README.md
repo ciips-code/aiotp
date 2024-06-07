@@ -10,11 +10,11 @@ This solution is part of the [**IS4H**](https://www.paho.org/en/is4h-information
 
 AIOTP is a telehealth suite containing 2 main modules: a Clinical Record Module based on OpenEMR, and a Videoconference module, based on Jitsi and Laravel. More modules will be added progressively. Documentation is available at the wiki webpage.
 
-- **Documentation Package / AIOTP Wiki**: [https://github.com/ciips-code/aiotp/wiki] ([https://github.com/ciips-code/aiotp/wiki])
+- **Documentation Package / AIOTP Wiki**: [https://github.com/ciips-code/aiotp/wiki](https://github.com/ciips-code/aiotp/wiki)
 
-- **AIOTP OpenEMR Package**: [https://github.com/ciips-code/openemr-telesalud] (https://github.com/ciips-code/openemr-telesalud)
+- **AIOTP OpenEMR Package**: [https://github.com/ciips-code/openemr-telesalud](https://github.com/ciips-code/openemr-telesalud)
 
-- **AIOTP Videoconference Package** (Jitsi, Laravel, APIs, and containers): [https://github.com/ciips-code/ciips-telesalud] (https://github.com/ciips-code/ciips-telesalud)
+- **AIOTP Videoconference Package** (Jitsi, Laravel, APIs, and containers): [https://github.com/ciips-code/ciips-telesalud](https://github.com/ciips-code/ciips-telesalud)
 
 ## Purpose
 
@@ -34,7 +34,7 @@ The platform was created to address the healthcare access challenges faced by re
 
 [**Digital Health Global Goods**](https://digitalsquare.org/digital-health-global-goods) (DHGG) have a close relationship to DPGs, in that they overlap with many aspects of the DPG Standard. However, the difference stems from the fact that Digital Square Global Goods are focused on the Sustainable Development Goal 3 (Health and Wellness) and primarily focused on the health domain with a market focus of Low-Middle Income Countries (LMIC) settings. Global Goods are also tools with an identified drive towards strengthening the maturity, interoperability, and shelf readiness. To be considered a global good, applicants must meet certain minimum requirements, such as having an open license, and complete a checklist to confirm their eligibility. Once the minimum requirements are met, applicants must fill out an application form and complete a self-assessment using the Digital Square Maturity Model (for software or content). The Peer Review Committee will then review all the applications and make recommendations. The Global Goods Review Board will meet quarterly to consider the PRC’s recommendations and decide whether to accept, reject, or request additional review. All applicants will be notified of the decision. Successful applicants will be added to the Global Goods Interactive Guidebook and will be publicized through our communication channels.
 
-AIOTP is currently undergoing a review, update and submission processes to be considered for both the DPG and the DHGG software lists. 
+AIOTP is currently undergoing a review, update and submission processes to be considered as a Digital Public Global Good for both the DPG and the DHGG software lists. 
 
 ## Development and Collaboration
 
@@ -44,9 +44,9 @@ The All In One Telehealth Platform is a collaborative effort involving multiple 
 
 To get started with the All In One Telehealth Platform, please visit the following resources:
 
-- **AIOTP OpenEMR Package**: [https://github.com/ciips-code/openemr-telesalud] (https://github.com/ciips-code/openemr-telesalud)
+- **AIOTP OpenEMR Package**: [https://github.com/ciips-code/openemr-telesalud](https://github.com/ciips-code/openemr-telesalud)
 
-- **AIOTP Videoconference Package** (Jitsi, Laravel, APIs, and containers): [https://github.com/ciips-code/ciips-telesalud] (https://github.com/ciips-code/ciips-telesalud)
+- **AIOTP Videoconference Package** (Jitsi, Laravel, APIs, and containers): [https://github.com/ciips-code/ciips-telesalud](https://github.com/ciips-code/ciips-telesalud)
 
 - [PAHO News Article](https://www.paho.org/en/news/12-1-2023-paho-platform-brings-health-monitoring-chronic-diseases-remote-populations)
 
