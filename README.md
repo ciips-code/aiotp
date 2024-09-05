@@ -83,11 +83,11 @@ Esta solución es parte de la iniciativa [**IS4H**](https://www.paho.org/en/is4h
 
 AIOTP es una suite de telesalud que contiene 2 módulos principales: un Módulo de Registro Clínico basado en OpenEMR, y un módulo de Videoconferencia, basado en Jitsi y Laravel. Progresivamente se irán agregando más módulos. La documentación está disponible en la página web Wiki.
 
-- **Paquete de Documentación / Wiki AIOTP**: [https://github.com/ciips-code/aiotp/wiki] ([https://github.com/ciips-code/aiotp/wiki])
+- **Paquete de Documentación / Wiki AIOTP**: [https://github.com/ciips-code/aiotp/wiki]([https://github.com/ciips-code/aiotp/wiki])
 
-- **Paquete AIOTP OpenEMR**: [https://github.com/ciips-code/openemr-telesalud] (https://github.com/ciips-code/openemr-telesalud)
+- **Paquete AIOTP OpenEMR**: [https://github.com/ciips-code/openemr-telesalud](https://github.com/ciips-code/openemr-telesalud)
 
-- **Paquete AIOTP Videoconferencia** (Jitsi, Laravel, APIs, and containers): [https://github.com/ciips-code/ciips-telesalud] (https://github.com/ciips-code/ciips-telesalud)
+- **Paquete AIOTP Videoconferencia** (Jitsi, Laravel, APIs, and containers): [https://github.com/ciips-code/ciips-telesalud](https://github.com/ciips-code/ciips-telesalud)
 
 
 ## Propósito
@@ -118,9 +118,9 @@ La Plataforma de Telesalud All In One es un esfuerzo colaborativo que involucra 
 
 Para comenzar con la Plataforma de Telesalud All In One, por favor visite los siguientes recursos:
 
-- **Paquete AIOTP OpenEMR**: [https://github.com/ciips-code/openemr-telesalud] (https://github.com/ciips-code/openemr-telesalud)
+- **Paquete AIOTP OpenEMR**: [https://github.com/ciips-code/openemr-telesalud](https://github.com/ciips-code/openemr-telesalud)
 
-- **Paquete AIOTP Videoconferencia** (Jitsi, Laravel, APIs, and containers): [https://github.com/ciips-code/ciips-telesalud] (https://github.com/ciips-code/ciips-telesalud)
+- **Paquete AIOTP Videoconferencia** (Jitsi, Laravel, APIs, and containers): [https://github.com/ciips-code/ciips-telesalud](https://github.com/ciips-code/ciips-telesalud)
 
 - [Artículo de Noticias sobre AIOTP de la OPS](https://www.paho.org/en/news/12-1-2023-paho-platform-brings-health-monitoring-chronic-diseases-remote-populations)
 
