@@ -16,6 +16,8 @@ AIOTP is a telehealth suite containing 2 main modules: a Clinical Record Module 
 
 - **AIOTP Videoconference Package** (Jitsi, Laravel, APIs, and containers): [https://github.com/ciips-code/ciips-telesalud](https://github.com/ciips-code/ciips-telesalud)
 
+- **AIOTP OpenEMR Custom FHIR Integration Module**: [https://github.com/ciips-code/openemr-cdss-smart](https://github.com/ciips-code/openemr-cdss-smart)
+
 ## Purpose
 
 The platform was created to address the healthcare access challenges faced by remote and underserved populations. By leveraging and adapting open-source components such as [OpenEMR](https://www.open-emr.org) and [Jitsi](https://jitsi.org), the platform provides a secure, scalable, and reliable telehealth solution. Initially, the platform includes an Electronic Medical Record (EMR) module and a Telehealth module, which can be deployed jointly or independently. The ongoing development aims to expand the platform's functionality and interoperability with other systems through standard interfaces.
@@ -48,6 +50,8 @@ To get started with the All In One Telehealth Platform, please visit the followi
 
 - **AIOTP Videoconference Package** (Jitsi, Laravel, APIs, and containers): [https://github.com/ciips-code/ciips-telesalud](https://github.com/ciips-code/ciips-telesalud)
 
+- **AIOTP OpenEMR Custom FHIR Integration Module**: [https://github.com/ciips-code/openemr-cdss-smart](https://github.com/ciips-code/openemr-cdss-smart)
+
 - [PAHO News Article](https://www.paho.org/en/news/12-1-2023-paho-platform-brings-health-monitoring-chronic-diseases-remote-populations)
 
 - [OpenEMR Community Channel on AIOTP](https://community.open-emr.org/t/all-in-one-telehealth-platform-aiotp-openemr-jitsi/22617)
@@ -56,9 +60,17 @@ To get started with the All In One Telehealth Platform, please visit the followi
 
 We welcome contributions from the community to help improve and expand the All In One Telehealth Platform. Please refer to our [Contribution Guidelines](CONTRIBUTING.md) for more information on how to get involved.
 
-## License
+## Open-Source Licenses
 
-This project is licensed under the CC License - see the [LICENSE](LICENSE) file for details.
+This project documentation is licensed as open-source under the Creative Commons CC License - see the [LICENSE](LICENSE) file for details. Additionally, the software open-source licenses are included and referenced for each component (Apache2, GNU GPL).
+
+- AIOTP documentation license: https://github.com/ciips-code/aiotp/blob/main/LICENSE
+
+- AIOTP OpenEMR license: https://github.com/ciips-code/openemr-telesalud/blob/master/LICENSE
+
+- AIOTP Videoconference license: https://github.com/ciips-code/ciips-telesalud/blob/master/LICENSE
+
+- AIOTP OpenEMR Custom FHIR Integration Module License: https://github.com/ciips-code/openemr-cdss-smart/blob/master/LICENSE
 
 ## Contact
 
@@ -89,6 +101,7 @@ AIOTP es una suite de telesalud que contiene 2 módulos principales: un Módulo 
 
 - **Paquete AIOTP Videoconferencia** (Jitsi, Laravel, APIs, and containers): [https://github.com/ciips-code/ciips-telesalud](https://github.com/ciips-code/ciips-telesalud)
 
+- **Módulo AIOTP customizado de integración OpenEMR - FHIR**: [https://github.com/ciips-code/openemr-cdss-smart](https://github.com/ciips-code/openemr-cdss-smart)
 
 ## Propósito
 
@@ -122,6 +135,8 @@ Para comenzar con la Plataforma de Telesalud All In One, por favor visite los si
 
 - **Paquete AIOTP Videoconferencia** (Jitsi, Laravel, APIs, and containers): [https://github.com/ciips-code/ciips-telesalud](https://github.com/ciips-code/ciips-telesalud)
 
+- **Módulo AIOTP customizado de integración OpenEMR - FHIR**: [https://github.com/ciips-code/openemr-cdss-smart](https://github.com/ciips-code/openemr-cdss-smart)
+
 - [Artículo de Noticias sobre AIOTP de la OPS](https://www.paho.org/en/news/12-1-2023-paho-platform-brings-health-monitoring-chronic-diseases-remote-populations)
 
 - [Canal sobre AIOTP en la Comunidad OpenEMR](https://community.open-emr.org/t/all-in-one-telehealth-platform-aiotp-openemr-jitsi/22617)
@@ -130,9 +145,17 @@ Para comenzar con la Plataforma de Telesalud All In One, por favor visite los si
 
 Damos la bienvenida a contribuciones de la comunidad para ayudar a mejorar y expandir la Plataforma de Telesalud All In One. Por favor, consulte nuestras [Directrices de Contribución](CONTRIBUTING.md) para obtener más información sobre cómo participar.
 
-## Licencia
+## Licencias de Código Abierto
 
-Este proyecto está licenciado bajo la Licencia CC - vea el archivo [LICENSE](LICENSE) para más detalles.
+La documentación de este proyecto está licenciada bajo la Licencia Creative Commons CC - vea el archivo [LICENSE](LICENSE) para más detalles. Asicionalmente, las licencias de código abierto están incluidas y referenciadas para cada componente (Apache2, GNU GPL).
+
+- Licencia de documentación AIOTP: https://github.com/ciips-code/aiotp/blob/main/LICENSE
+
+- Licencia de OpenEMR en AIOTP: https://github.com/ciips-code/openemr-telesalud/blob/master/LICENSE
+
+- Licencia de Videoconferencia AIOTP: https://github.com/ciips-code/ciips-telesalud/blob/master/LICENSE
+
+- Licencia del Módulo AIOTP customizado de integración OpenEMR - FHIR: https://github.com/ciips-code/openemr-cdss-smart/blob/master/LICENSE
 
 ## Contacto
 
